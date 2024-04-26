@@ -1,10 +1,12 @@
 // Complete the Index page component for Yuntong Zhang's personal website
 import { Box, Container, Heading, Text, Link, SimpleGrid, Image, VStack, HStack, Icon } from "@chakra-ui/react";
+import Navbar from "../components/Navbar";
 import { FaTwitter, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl">
+    <Container maxW="container.xl" id="home">
+      <Navbar />
       <VStack spacing={10} py={10}>
         {/* Header Section */}
         <Box textAlign="center">
@@ -26,7 +28,7 @@ const Index = () => {
         </Box>
 
         {/* Academic Publications Section */}
-        <Box>
+        <Box id="publications">
           <Heading as="h2" size="lg">
             Academic Publications
           </Heading>
@@ -48,7 +50,7 @@ const Index = () => {
         </Box>
 
         {/* Projects Gallery */}
-        <Box>
+        <Box id="projects">
           <Heading as="h2" size="lg">
             Projects and Achievements
           </Heading>
@@ -60,7 +62,7 @@ const Index = () => {
         </Box>
 
         {/* Contact Information */}
-        <Box>
+        <Box id="contact">
           <Heading as="h2" size="lg">
             Contact Me
           </Heading>
