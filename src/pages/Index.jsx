@@ -41,6 +41,9 @@ const Index = () => {
             <Link href="#" isExternal>
               Neural Networks for Beginners - 2021
             </Link>
+            <Link href="https://github.com/nus-apr/auto-code-rover" isExternal>
+              Auto Code Rover Project - 2024
+            </Link>
           </VStack>
         </Box>
 
