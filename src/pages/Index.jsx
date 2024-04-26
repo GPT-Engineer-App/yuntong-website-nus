@@ -14,7 +14,7 @@ const Index = () => {
           <Text fontSize="xl" mt={2}>
             PhD Candidate at National University of Singapore (NUS)
           </Text>
-          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMG9mJTIwWXVudG9uZyUyMFpoYW5nfGVufDB8fHx8MTcxNDEyMzU3Nnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Yuntong Zhang" mt={4} />
+          <Image borderRadius="full" boxSize="150px" src="https://i.imgur.com/NKA0rd2.png" alt="Yuntong Zhang" mt={4} />
         </Box>
 
         {/* Bio Section */}
